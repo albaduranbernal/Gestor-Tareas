@@ -47,12 +47,11 @@ Entorno previsto: AGP 8.7.3, Kotlin 2.1.0, KSP 2.1.0-1.0.29, Gradle 8.9, JDK 17,
 3. Para generar el APK de depuración: `./gradlew assembleDebug` (Windows: `gradlew.bat assembleDebug`). Resultado en `app/build/outputs/apk/debug/app-debug.apk`. Copia ese archivo a la raíz del repositorio para entregarlo.
 
 ## ⚠️ Emuladores utilizados (completar)
-
 | | Emulador 1 (compacto) | Emulador 2 (grande) |
-|---|---|---|
-| Perfil | | |
-| Resolución / densidad | | |
-| API / imagen | | |
+| :--- | :--- | :--- |
+| **Perfil** | Pixel 10 Pro | *(Completar con el grande / tablet)* |
+| **Resolución / densidad** | 1280 × 2856 / 480 dpi | |
+| **API / imagen** | API 37.0 (Android 17.0 "CinnamonBun" \| x86_64) | |
 
 ## ⚠️ Pruebas realizadas (completar con lo observado)
 
