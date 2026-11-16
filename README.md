@@ -46,12 +46,19 @@ Entorno previsto: AGP 8.7.3, Kotlin 2.1.0, KSP 2.1.0-1.0.29, Gradle 8.9, JDK 17,
 2. Crea o inicia un emulador (Device Manager) y pulsa **Run ▶** con la configuración `app`.
 3. Para generar el APK de depuración: `./gradlew assembleDebug` (Windows: `gradlew.bat assembleDebug`). Resultado en `app/build/outputs/apk/debug/app-debug.apk`. Copia ese archivo a la raíz del repositorio para entregarlo.
 
-## ⚠️ Emuladores utilizados (completar)
-| | Emulador 1 (compacto) | Emulador 2 (grande) |
+## Emuladores utilizados
+
+| | Emulador 1  | Emulador 2  |
 | :--- | :--- | :--- |
-| **Perfil** | Pixel 10 Pro | *(Completar con el grande / tablet)* |
-| **Resolución / densidad** | 1280 × 2856 / 480 dpi | |
-| **API / imagen** | API 37.0 (Android 17.0 "CinnamonBun" \| x86_64) | |
+| **Perfil** | Pixel 10 Pro | Small Tablet |
+| **Resolución / densidad** | 1280 × 2856 / 480 dpi | 1600 × 2560 / 320 dpi *(o 800 × 1280 / mdpi según perfil)* |
+| **API / imagen** | API 37.0 (Android 17.0 "CinnamonBun" \| x86_64) | API 37.0 (Android 17.0 "CinnamonBun" \| x86_64) |
+
+## Capturas de pantalla
+
+| Emulador 1 (Pixel 10 Pro) | Emulador 2 (Small Tablet) |
+| :---: | :---: |
+| ![Listado de tareas en Pixel 10 Pro](img/CapturaMovil.png) | ![Listado de tareas en Small Tablet](img/CapturaTablet.png) |
 
 ## ⚠️ Pruebas realizadas (completar con lo observado)
 
