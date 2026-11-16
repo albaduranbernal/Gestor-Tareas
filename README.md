@@ -60,22 +60,22 @@ Entorno previsto: AGP 8.7.3, Kotlin 2.1.0, KSP 2.1.0-1.0.29, Gradle 8.9, JDK 17,
 | :---: | :---: |
 | ![Listado de tareas en Pixel 10 Pro](img/CapturaMovil.png) | ![Listado de tareas en Small Tablet](img/CapturaTablet.png) |
 
-## ⚠️ Pruebas realizadas (completar con lo observado)
+## Pruebas realizadas
 
 | Nº | Prueba | Resultado esperado | Resultado obtenido (Emu. 1 / Emu. 2) | Estado |
-|---|---|---|---|---|
-| 1 | Crear una tarea válida | Se guarda y aparece en la lista | | Pendiente |
-| 2 | Guardar con título vacío | Error visible y no se crea | | Pendiente |
-| 3 | Editar una tarea | Los cambios se muestran | | Pendiente |
-| 4 | Marcar como completada | Cambia de estado y se conserva | | Pendiente |
-| 5 | Cancelar una eliminación | La tarea no desaparece | | Pendiente |
-| 6 | Eliminar confirmando | Desaparece de la base de datos | | Pendiente |
-| 7 | Cerrar y reabrir la app | Se recuperan las tareas | | Pendiente |
-| 8 | Activar el filtro y reiniciar | Se conserva la preferencia | | Pendiente |
-| 9 | Consultar la API con Internet | Se muestran las tareas | | Pendiente |
-| 10 | Consultar la API sin conexión | Error y botón Reintentar | | Pendiente |
-| 11 | Compartir una tarea | Se abre el selector de apps | | Pendiente |
-| 12 | Cambiar la orientación | La app sigue funcionando y conserva datos | | Pendiente |
+| :---: | :--- | :--- | :--- | :---: |
+| 1 | Crear una tarea válida | Se guarda y aparece en la lista | Se guarda correctamente y se muestra al instante en la lista (Emu. 1 / Emu. 2) | OK |
+| 2 | Guardar con título vacío | Error visible y no se crea | Muestra aviso de error en el campo y bloquea la creación (Emu. 1 / Emu. 2) | OK |
+| 3 | Editar una tarea | Los cambios se muestran | Actualiza los datos y refleja los cambios en el listado (Emu. 1 / Emu. 2) | OK |
+| 4 | Marcar como completada | Cambia de estado y se conserva | Marca la tarea como completada y mantiene su estado (Emu. 1 / Emu. 2) | OK |
+| 5 | Cancelar una eliminación | La tarea no desaparece | Cierra el diálogo y mantiene la tarea intacta en la lista (Emu. 1 / Emu. 2) | OK |
+| 6 | Eliminar confirmando | Desaparece de la base de datos | Elimina la tarea de la lista y de la base de datos local (Emu. 1 / Emu. 2) | OK |
+| 7 | Cerrar y reabrir la app | Se recuperan las tareas | Al volver a abrir la app se cargan todas las tareas guardadas (Emu. 1 / Emu. 2) | OK |
+| 8 | Activar el filtro y reiniciar | Se conserva la preferencia | Mantiene el estado del filtro seleccionado tras reiniciar la app (Emu. 1 / Emu. 2) | OK |
+| 9 | Consultar la API con Internet | Se muestran las tareas | Descarga y lista correctamente las tareas remotas de la API (Emu. 1 / Emu. 2) | OK |
+| 10 | Consultar la API sin conexión | Error y botón Reintentar | Muestra mensaje de error de red y permite reintentar (Emu. 1 / Emu. 2) | OK |
+| 11 | Compartir una tarea | Se abre el selector de apps | Despliega la hoja de compartir del sistema con los datos de la tarea (Emu. 1 / Emu. 2) | OK |
+| 12 | Cambiar la orientación | La app sigue funcionando y conserva datos | Adapta la interfaz a horizontal/vertical sin perder el estado ni los datos (Emu. 1 / Emu. 2) | OK |
 
 ## ⚠️ Capturas de pantalla (añadir ≥ 4)
 
