@@ -77,9 +77,15 @@ Entorno previsto: AGP 8.7.3, Kotlin 2.1.0, KSP 2.1.0-1.0.29, Gradle 8.9, JDK 17,
 | 11 | Compartir una tarea | Se abre el selector de apps | Despliega la hoja de compartir del sistema con los datos de la tarea (Emu. 1 / Emu. 2) | OK |
 | 12 | Cambiar la orientación | La app sigue funcionando y conserva datos | Adapta la interfaz a horizontal/vertical sin perder el estado ni los datos (Emu. 1 / Emu. 2) | OK |
 
-## ⚠️ Capturas de pantalla (añadir ≥ 4)
+## Capturas de pantalla
 
-Listado principal · formulario de creación (con error de validación) · consulta a la API · una interacción relevante (diálogo de borrado, selector de compartir…).
+| Pantalla / Funcionalidad | Captura |
+| :--- | :---: |
+| **Listado principal (Pixel 10 Pro - Compacto)** | ![Listado móvil](img/CapturaMovil.png) |
+| **Listado principal (Small Tablet - Grande)** | ![Listado tablet](img/CapturaTablet.png) |
+| **Formulario de creación (error de validación)** | ![Error de validación](img/CapturaError.png) |
+| **Consulta a la API (JSONPlaceholder)** | ![Consulta API](img/CapturaApi.png) |
+| **Interacción relevante (diálogo de borrado)** | ![Diálogo de borrado](img/CapturaDialogo.png) |
 
 ## ⚠️ Chat de IA utilizado
 
