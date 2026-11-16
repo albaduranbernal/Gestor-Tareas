@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gestor de Tareas</string>
+
+    <!-- Lista -->
+    <string name="titulo_lista">Mis tareas</string>
+    <string name="seccion_personales">Tareas personales</string>
+    <string name="solo_pendientes">Mostrar solo pendientes</string>
+    <string name="sin_tareas">Todavía no tienes tareas. Pulsa el botón + para crear la primera.</string>
+    <string name="sin_pendientes">No tienes tareas pendientes. ¡Buen trabajo!</string>
+    <string name="cargando_tareas">Cargando tareas…</string>
+    <string name="nueva_tarea">Nueva tarea</string>
+    <string name="editar_tarea">Editar tarea</string>
+    <string name="prioridad_y_estado">Prioridad: %1$s · %2$s</string>
+    <string name="estado_pendiente">Pendiente</string>
+    <string name="estado_completada">Completada</string>
+    <string name="accion_completar">Marcar como completada</string>
+    <string name="accion_editar">Editar</string>
+    <string name="accion_eliminar">Eliminar</string>
+    <string name="accion_compartir">Compartir</string>
+
+    <!-- Formulario -->
+    <string name="campo_titulo">Título</string>
+    <string name="campo_descripcion">Descripción (opcional)</string>
+    <string name="campo_prioridad">Prioridad: %1$s</string>
+    <string name="guardar">Guardar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="volver">Volver</string>
+    <string name="prioridad_baja">Baja</string>
+    <string name="prioridad_media">Media</string>
+    <string name="prioridad_alta">Alta</string>
+    <string name="error_titulo_vacio">El título no puede estar vacío.</string>
+    <string name="error_titulo_corto">El título debe tener al menos 3 caracteres.</string>
+    <string name="error_prioridad">Elige una prioridad: baja, media o alta.</string>
+
+    <!-- Errores de almacenamiento -->
+    <string name="error_guardar">No se pudo guardar la tarea.</string>
+    <string name="error_actualizar">No se pudo actualizar la tarea.</string>
+    <string name="error_eliminar">No se pudo eliminar la tarea.</string>
+    <string name="error_filtro">No se pudo guardar la preferencia.</string>
+
+    <!-- Eliminar -->
+    <string name="eliminar_titulo">Eliminar tarea</string>
+    <string name="eliminar_mensaje">¿Seguro que quieres eliminar «%1$s»? Esta acción no se puede deshacer.</string>
+    <string name="eliminar_confirmar">Eliminar</string>
+
+    <!-- Compartir -->
+    <string name="share_texto">Tarea: %1$s\nDescripción: %2$s\nPrioridad: %3$s</string>
+    <string name="share_sin_descripcion">(sin descripción)</string>
+    <string name="share_selector">Compartir tarea con…</string>
+    <string name="share_sin_app">No hay ninguna aplicación compatible para compartir.</string>
+
+    <!-- Tareas de ejemplo (API) -->
+    <string name="ejemplo_titulo">Tareas de ejemplo</string>
+    <string name="ejemplo_aviso">Datos de ejemplo de JSONPlaceholder. No son tus tareas personales y no se guardan en el dispositivo.</string>
+    <string name="cargar_tareas">Cargar tareas de ejemplo</string>
+    <string name="cargando">Consultando el servidor…</string>
+    <string name="reintentar">Reintentar</string>
+    <string name="ejemplo_inicial">Pulsa el botón para consultar las tareas de ejemplo del servidor.</string>
+    <string name="ejemplo_vacio">El servidor no ha devuelto ninguna tarea.</string>
+    <string name="ejemplo_item_id">Identificador: %1$d</string>
+    <string name="error_conexion">No se pudo conectar con el servidor. Comprueba tu conexión e inténtalo de nuevo.</string>
+    <string name="error_http">El servicio ha respondido con un error (código %1$d).</string>
+    <string name="error_datos">Los datos recibidos no son compatibles.</string>
+</resources>
