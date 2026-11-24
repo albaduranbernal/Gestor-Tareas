@@ -2,8 +2,6 @@
 
 Aplicación Android (Kotlin + Jetpack Compose + Material 3) para gestionar tareas personales, académicas o profesionales. Práctica del módulo **PMDM – Programación Multimedia y Dispositivos Móviles**.
 
-> **Estado de la entrega:** el código está completo, pero las pruebas en emulador, las capturas, el APK y el enlace al chat de IA **los debes completar tú** (secciones marcadas con ⚠️). No marques como «correcto» ninguna prueba que no hayas ejecutado.
-
 ## Funcionalidades implementadas
 
 - Listado de tareas con `LazyColumn` (título, prioridad y estado) y mensaje informativo cuando no hay tareas.
@@ -87,9 +85,8 @@ Entorno previsto: AGP 8.7.3, Kotlin 2.1.0, KSP 2.1.0-1.0.29, Gradle 8.9, JDK 17,
 | **Consulta a la API (JSONPlaceholder)** | ![Consulta API](img/CapturaApi.png) |
 | **Interacción relevante (diálogo de borrado)** | ![Diálogo de borrado](img/CapturaDialogo.png) |
 
-## ⚠️ Chat de IA utilizado
-
-Enlace: _pega aquí el enlace al chat_
+## Chat de IA utilizado
+https://gemini.google.com/share/d/1V_fgqWY_5_50ZvNdF35IRG2a9udeVIWs?usp=sharing
 
 ## Incidencias conocidas / limitaciones
 
